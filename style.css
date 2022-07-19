@@ -1,0 +1,257 @@
+/*
+Common style
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background:#fffffc;
+}
+.container{
+    width:1150px;
+    margin:0 auto;
+}
+.padding{
+    padding: 80px 0;
+}
+/*
+Header styling
+*/
+#header{
+    margin-top:50px;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+}
+.headerRight ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headerRight ul li {
+    list-style: none;
+}
+
+.headerRight ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight:600
+}
+.headerLeft h2{
+    text-transform:capitalize;
+    font-size: 25px;
+    font-weight:800;
+}
+/*
+Banner styling
+*/
+.banner{
+    padding:80px 0;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    align-items:center;
+    justify-content:center;
+}
+.bannerRigth{
+    justify-self:center;
+    border:1px solid #ddd;
+    padding:65px;
+    border-radius:100%;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -ms-border-radius:100%;
+    -o-border-radius:100%;
+}
+.bannerRigth img{
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+}
+.bannerLeft{
+    padding-top:50px;
+}
+.bannerLeft h2{
+    font-size:40px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+.bannerLeft p{
+    color:black;
+    margin-bottom:20px;
+    font-size:18px;
+}
+.bannerLeft a{
+    background:red;
+    text-decoration:none;
+    padding: 10px 20px;
+    color:#fff;
+    font-size:18px;
+    text-transform:capitalize;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+    margin-top:15px;
+    display:inline-block;
+}
+.bannerLeft a i{
+    font-size:15px;
+    margin-left:8px;
+}
+/*
+logo Section Styling
+*/
+.logoSection{
+    display:flex;
+    justify-content:center;
+    justify-content: space-evenly;
+    padding:30px 50px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+
+/*
+Card styling 
+*/
+.singleCard{
+    background:#fff;
+    border:1px solid #ddd;
+    padding:15px 10px;
+    width:300px;
+    background:#fff;
+    justify-self:center;
+    
+}
+.singleCard img{
+    max-width:100%;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.singleCard h2{
+    margin-top:10px;
+    margin-bottom:5px;
+    font-size:30px;
+    font-weight:600
+}
+.singleCard h5{
+    font-size:20px;
+
+}
+.singleCard i{
+    color:tomato;
+    margin-top:10px;
+    margin-bottom:5px;
+    font-size:10px;
+}
+.singleCard div{
+    color:#222
+
+}
+.CardPadding{
+    padding:80px 0;
+}
+.CardTitle{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:60px;
+
+}
+.Cards{
+    display:grid;
+    grid-template-columns:300px 300px 300px;
+    grid-gap:30px;
+    justify-content: center;;
+}
+.arrow{
+    position:absolute;
+    right:200px;
+    margin-top:30px;
+    color:red;
+
+}
+.arrow a{
+    color:red;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:800;
+}
+/*
+Feature styling
+*/
+.feature{
+    display:grid;
+   grid-template-columns:repeat(2, 1fr);
+}
+.featureLeft{
+    padding-left:50px;
+}
+.featureRight{
+    margin-top:40px;
+}
+.featureRight h2{
+    font-size:35px;
+    font-weight:900;
+}
+.featureRight p{
+    margin-top:15px;
+    color:#333
+}
+.featureRight a{
+    text-decoration:none;
+    text-transform:capitalize;
+    background:#FF2C49;
+    padding:10px 20px;
+    color:#fff;
+    display:inline-block;
+    margin-top:18px;
+}
+/*
+Footer styling
+*/
+.footer{
+    background:#110825;
+    color:#fff;
+    text-align:center;
+    padding:50px 0;
+}
+.footer h2{
+    font-size:25px;
+    font-weight:800;
+    margin-bottom:10px;
+    text-transform:capitalize;
+
+}
+.footer p{
+    font-size:16px;
+   
+}
+.footer a{
+    display:inline-block;
+    margin-top:10px;
+    background:#28203A;
+    color:#fff;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
